@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #4CAF50;
+}
+
+header p {
+  font-size: 18px;
+  color: #777;
+}
+
+.habit-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.habit-input input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.habit-input input:focus {
+  border-color: #4CAF50;
+}
+
+.habit-input button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-input button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #e9f7e6;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:nth-child(1) {
+  background-color: #4CAF50;
+  color: white;
+  margin-right: 10px;
+}
+
+button:nth-child(1):hover {
+  background-color: #45a049;
+}
+
+button:nth-child(2) {
+  background-color: #f44336;
+  color: white;
+}
+
+button:nth-child(2):hover {
+  background-color: #e53935;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+.status {
+  font-size: 14px;
+  color: green;
+}
+
+  
+  
+
